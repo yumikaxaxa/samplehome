@@ -162,7 +162,13 @@ header #logo img {
 	margin-bottom: 10px;
 }
 /*画像の設定*/
-.list img {
+.about aboutimg {
+		width: 30%;			/*画像幅*/
+		float: left;		/*画像を左に回り込み*/
+		margin-right: 3%	/*画像の右側に空けるスペース*/
+}
+
+.list2 img {
 	width: 50%;			/*画像幅*/
 	float: left;		/*画像を左に回り込み*/
 	margin-right: 3%	/*画像の右側に空けるスペース*/
@@ -331,7 +337,7 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
 header #logo img {
-	width: 50%;	/*画像の幅*/
+	width: 70%;	/*画像の幅*/
 	left: 25%;	/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
 }
 
