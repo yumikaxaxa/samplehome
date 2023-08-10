@@ -11,11 +11,11 @@ html,body {height: 100%;}
 body {
 	margin: 0px;
 	padding: 0px;
-	color: #61677A;	/*全体の文字色*/
+	color: #000000;	/*全体の文字色*/
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	font-size: 16px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
-	background: #FFF6E0;	/*背景色*/
+	background: #F6F1F1;	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
@@ -80,13 +80,13 @@ header #logo img {
 #menubar li a {
 	text-decoration: none;display: block;text-align: center;
 	width: 140px;	/*メニューの幅*/
-	color: #fff;	/*文字色*/
+	color: #F6F1F1;	/*文字色*/
 	border-bottom: 2px solid transparent;	/*下線の幅、線種、色。transparentは透明の事。*/
 	padding-bottom: 7px;	/*下線と文字の間にとる余白*/
 }
 /*マウスオン時の指定*/
 #menubar li a:hover {
-	border-bottom: 2px solid #fff;	/*下線の幅、線種、色*/
+	border-bottom: 2px solid #F6F1F1;	/*下線の幅、線種、色*/
 	letter-spacing: 0.1em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 }
 
@@ -114,7 +114,7 @@ header #logo img {
 	font-size: 20px;		/*文字サイズ*/
 	text-align: center;		/*文字をセンタリング*/
 	letter-spacing: 0.1em;	/*文字間隔を少しだけ広くする指定*/
-	background: #374c55;	/*背景色*/
+	background: #146C94;	/*背景色*/
 	color: #fff;			/*文字色*/
 	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
 }
@@ -226,7 +226,7 @@ footer .pr {
 .ta1 th.tamidashi {
 	width: auto;
 	text-align: center;	/*文字をセンタリング*/
-	background: #dfdfdf;	/*背景色*/
+	background: #F6F1F1;	/*背景色*/
 }
 /*ta1テーブルブロック設定*/
 .ta1 {
