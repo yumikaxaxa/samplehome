@@ -52,7 +52,7 @@ header {
 /*ロゴ画像*/
 header #logo img {
 	display: block;
-	width: 20%;	/*画像の幅*/
+	width: 50%;	/*画像の幅*/
 	position: absolute;
 	left: 40%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
 	bottom: 50%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
@@ -231,7 +231,7 @@ footer .pr {
 /*ta1テーブルブロック設定*/
 .ta1 {
 	table-layout: fixed;
-	width: 100%;
+	width: 80%;
 	margin: 0 auto 20px;
 }
 .ta1, .ta1 td, .ta1 th {
@@ -242,7 +242,7 @@ footer .pr {
 /*テーブルの左側ボックス*/
 .ta1 th {
 	text-align: center;	/*センタリング*/
-	width: 30%;			/*幅*/
+	width: 20%;			/*幅*/
 }
 
 /*PAGE TOP（↑）設定
